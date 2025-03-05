@@ -2,7 +2,7 @@
 
 Este script permite gestionar y configurar interfaces de red en un sistema Linux de forma interactiva. Proporciona una serie de funciones para mostrar el estado de las interfaces del dispositivo, cambiar su estado (activarlas o desactivarlas), conectarse a redes cableadas o inalámbricas, configurar la red de manera estática o dinámica y guardar los cambios de forma permanente.
 
-## Funciones principales
+## Funciones
 
 ### 1. Mostrar interfaces de red disponibles
 Muestra las interfaces de red disponibles en el sistema y su estado (UP/DOWN).
