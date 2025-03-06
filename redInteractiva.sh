@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#mostrar las interfaces de red disponibles y su estado (UP/DOWN)
+#mostrar las interfaces de red disponibles y su estado
 ver_interfaces() {
     echo ""
     echo "Interfaces de red disponibles en el equipo y su estado:"
@@ -81,7 +81,7 @@ conexion_wireless() {
     if iw dev "$interface" link | grep -q "$ssid"; then
         echo "Conectado a la red inalámbrica $ssid"
     else
-        echo "Error: No se pudo conectar a $ssid"
+        echo "Error: no se pudo conectar a $ssid"
     fi
     
     rm -f "$WPA_CONF"
@@ -131,7 +131,7 @@ while true; do
     echo "3. Conectarse a una red cableada"
     echo "4. Conectarse a una red inalámbrica"
     echo "5. Configurar la red (estática o dinámica)"
-    echo "6. Guardar la configuración y hacerla permanente"
+    echo "6. Guardar la configuración de forma permanente"
     echo "7. Salir"
     read -p "Selecciona una opción: " choice
 
@@ -143,7 +143,7 @@ while true; do
         5) config_red ;;
         6) guardar_config ;;
         7) exit 0 ;;
-        *) echo "Opción no válida." ;;
+        *) echo "Opción no válida" ;;
     esac
     echo ""
 done
