@@ -1,6 +1,6 @@
 # Script de configuración de redes en GNU/Linux
 
-Este script permite gestionar y configurar interfaces de red en un sistema Linux de forma interactiva. Proporciona una serie de funciones para mostrar el estado de las interfaces del dispositivo, cambiar su estado (activarlas o desactivarlas), conectarse a redes cableadas o inalámbricas, configurar la red de manera estática o dinámica y guardar los cambios de forma permanente.
+Script que permite gestionar y configurar interfaces de red en un sistema Linux de forma interactiva. Proporciona una serie de funciones para mostrar el estado de las interfaces del dispositivo, cambiar su estado (activarlas o desactivarlas), conectarse a redes cableadas o inalámbricas, configurar la red de manera estática o dinámica y guardar los cambios de forma permanente.
 
 ## Funciones
 
@@ -27,7 +27,7 @@ Guarda la configuración de la interfaz de red seleccionada y la hace permanente
 - Linux con acceso de superusuario (sudo).
 - Herramientas `ip`, `awk`, `grep`, `iw`, `dhclient` y `wpa_supplicant` deben estar instaladas.
 
-## Uso
+## Descarga y uso
 
 1. Clonar este repositorio a la máquina:
 
@@ -47,7 +47,7 @@ Guarda la configuración de la interfaz de red seleccionada y la hace permanente
     ./redInteractiva.sh
     ```
 
-4. El script mostrará un menú con las opciones disponibles. Ingresar el número correspondiente para ejecutar la opción deseada.
+4. El script mostrará un menú con las opciones disponibles. Ingresar el número correspondiente para ejecutar la opción deseada, posteriormente saldrán más opciones dentro del menú interactivo. 
 
 
 ## Contribuciones
