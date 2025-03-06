@@ -32,7 +32,7 @@ Guarda la configuración de la interfaz de red seleccionada y la hace permanente
 1. Clonar este repositorio a la máquina:
 
     ```bash
-    git clone https://github.com/tu_usuario/gestion-red-linux.git
+    git clone https://github.com/Dian13H/redInteractiva.git
     ```
 
 2. Dar permisos de ejecución al script:
